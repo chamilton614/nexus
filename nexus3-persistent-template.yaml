@@ -153,7 +153,7 @@ parameters:
   value: nexus
 - displayName: Sonatype Nexus version
   name: NEXUS_VERSION
-  required: true
+  required: false
   value: 3.19.1
 - description: Volume space available for Sonatype Nexus e.g. 512Mi, 2Gi
   displayName: Volume Space for Nexus
