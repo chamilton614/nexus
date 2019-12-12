@@ -131,17 +131,21 @@ objects:
       app: ${SERVICE_NAME}
     name: ${SERVICE_NAME}
   spec:
+    host: ${HOSTNAME}
     port:
       targetPort: 8081-tcp
     to:
-      kind: Service
+      #kind: Service
       name: ${SERVICE_NAME}
-      weight: 100
+      #weight: 100
 parameters:
 - displayName: Sonatype Nexus Service Name
   name: SERVICE_NAME
   required: true
   value: nexus
+- description: 'Custom hostname for http service route.  Leave blank for default hostname, e.g.: <application-name>-<project>.<default-domain-suffix>'
+  name: HOSTNAME
+  required: false
 - displayName: Sonatype Nexus version
   name: NEXUS_VERSION
   required: false
