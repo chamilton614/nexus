@@ -167,7 +167,7 @@ parameters:
 - displayName: Nexus IQ version
   name: NEXUS_IQ_VERSION
   required: true
-  value: 1.47.0
+  value: 1.80.0
 - description: Max memory allocated to the Nexus pod
   displayName: Max Memory
   name: MAX_MEMORY

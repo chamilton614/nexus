@@ -180,7 +180,7 @@ parameters:
 - displayName: Nexus IQ version
   name: NEXUS_IQ_VERSION
   required: true
-  value: 1.47.0
+  value: 1.80.0
 - description: Volume space available for Sonatype Nexus e.g. 512Mi, 2Gi
   displayName: Volume Space for Nexus IQ
   name: VOLUME_CAPACITY
